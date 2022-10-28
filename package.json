@@ -13,10 +13,9 @@
     "react-scripts": "^3.4.1",
     "sass": "^1.49.7"
   },
-  "homepage": "https://helton-companies.github.io/heltoncompanies.com/",
   "repository": {
     "type": "git",
-    "url": "https://github.com/cruip/open-react-template.git"
+    "url": "https://github.com/Helton-Companies/heltoncompanies.com.git"
   },
   "scripts": {
     "predeploy": "npm run build",
