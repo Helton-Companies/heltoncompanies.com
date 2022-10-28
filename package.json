@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "classnames": "^2.2.6",
+    "gh-pages": "^4.0.0",
     "lodash": "^4.17.15",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
@@ -12,11 +13,14 @@
     "react-scripts": "^3.4.1",
     "sass": "^1.49.7"
   },
+  "homepage": "https://helton-companies.github.io/heltoncompanies.com/",
   "repository": {
     "type": "git",
     "url": "https://github.com/cruip/open-react-template.git"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
