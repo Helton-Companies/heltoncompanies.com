@@ -43,5 +43,3 @@ const App = () => {
 };
 
 export default App;
-
-// "homepage": "https://helton-companies.github.io/heltoncompanies.com/",
